@@ -40,7 +40,7 @@ cacheSolve <- function(x, ...) {
     
     ##If the inverseMatrix is not null, return the value
     if(!is.null(inverseMatrix)){
-      return(inverse)
+      return(inverseMatrix)
     }
     
     ##If it is null, Calculate the inverse and cache it
